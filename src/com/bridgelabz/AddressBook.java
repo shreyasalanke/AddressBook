@@ -2,11 +2,15 @@ package com.bridgelabz;
 
 import java.util.*;
 
+
+
 public class AddressBook 
    {
-     public static void main(String[] args) 
-     {
-		System.out.println("welcome to Address Book");
-	 }
+	private String first_name;
+	private String address;
+	private String telNo;
+	private String email;
+	private String last_name;
+
 
    }
