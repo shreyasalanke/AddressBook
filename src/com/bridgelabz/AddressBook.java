@@ -111,5 +111,11 @@ public class AddressBook {
     System.out.println("Welcome to the Address Book System Program");
 	   AddressBook person = new  AddressBook();
 	   person.contactDisplay();
+	   AddressBook person2 = new  AddressBook();
+	   System.out.println("\ndetails of user 2 is");
+	   person2.contactDisplay();
+	   AddressBook person3 = new  AddressBook();
+	   System.out.println("\ndetails of user 3 is");
+	   person3.contactDisplay();
 	}
 }
