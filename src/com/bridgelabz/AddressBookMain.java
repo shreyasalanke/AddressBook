@@ -17,13 +17,11 @@ public class AddressBookMain {
 
         while(flag) 
         {
-
             System.out.println("1.Add Contact");
             System.out.println("2.Edit Contact");
             System.out.println("3.Delete");
             System.out.println("4.Exit");
             System.out.println("Enter Choice: ");
-
             int option = sc.nextInt();
 
             switch (option)
@@ -67,13 +65,9 @@ public class AddressBookMain {
                 case 4:
                     flag =false;
                     break;
-
             }
         }
     }
-
-
-
     public static void main(String[] args) 
     {
         System.out.println("Welcome to the Address Book");
